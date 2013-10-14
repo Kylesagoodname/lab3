@@ -1,7 +1,5 @@
 /* reset stylesheet to reset browser defaults back to 0 */
 @import url(reset.css);
-
-/* two Google fonts we'll use */
 @import url(https://fonts.googleapis.com/css?family=Cantora+One);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
@@ -22,6 +20,7 @@ article {
 header {
 	background-color: #907A46;
 	padding: 10px;
+	color: #EEEDEA
 }
 
 .roll {
@@ -31,18 +30,19 @@ header {
 }
 
 .roll:hover {
-
+	opacity: 1;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;
 }
 
-header {
-	font-size: 200%;
-	font-family: 'Cantora One';
-	color: #EEEDEA
-
-}
 
 h1 {
 	line-height: 60px;
+	font-size: 200%;
+	font-family: 'Cantora One';
 }
 
 figure {
@@ -60,22 +60,22 @@ figcaption {
 .thumbnail {
 	border: 10px solid #EEE;
 	width: 200px;
+	border-radius: 2px;
 }
 
 figure:hover {
 	box-shadow: 2px 2px 6px #555;
-	-webkit-transform: scale(1.5);
-	-moz-transform: scale(1.5);
-	-o-transform: scale(1.5);
-	-ms-transform: scale(1.5);
-	transform: scale(1.5);
+	-webkit-transform: scale(1.5) rotate(720deg);
+	-moz-transform: scale(1.5) rotate(720deg);
+	-o-transform: scale(1.5) rotate(720deg);
+	-ms-transform: scale(1.5) rotate(720deg);
+	transform: scale(1.5) rotate(720deg);
 
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	-o-transition: all 0.2s ease;
-	-ms-transition: all 0.2s ease;
-	transition: all 0.2s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
 
 }
 
-/*look into clear*/
